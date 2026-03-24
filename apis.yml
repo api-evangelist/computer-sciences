@@ -1,0 +1,7 @@
+aid: computer-sciences
+url: https://raw.githubusercontent.com/api-evangelist/computer-sciences/refs/heads/main/apis.yml
+modified: '2026-03-23'
+apis: []
+common:
+  - type: Website
+    url: https://www.computer-sciences.com

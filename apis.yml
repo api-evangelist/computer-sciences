@@ -1,7 +1,12 @@
 aid: computer-sciences
-url: https://raw.githubusercontent.com/api-evangelist/computer-sciences/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/computer-sciences/refs/heads/main/apis.yml
 modified: '2026-03-23'
 apis: []
 common:
   - type: Website
     url: https://www.computer-sciences.com
+description: >-
+  Computer Sciences Corporation was a multinational corporation that provided information
+  technology services and professional services before merging with HPE Enterprise
+  Services to form DXC Technology.

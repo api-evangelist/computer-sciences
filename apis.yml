@@ -27,6 +27,8 @@ x-status: defunct
 x-successor: dxc-technology
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/computer-sciences-corporation-csc
   - type: Successor Website
     url: https://www.dxc.com
   - type: Wikipedia

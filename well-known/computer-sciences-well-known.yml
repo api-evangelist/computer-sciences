@@ -1,0 +1,98 @@
+generated: '2026-09-05'
+method: probed
+source: https://csc.com/.well-known/ and https://www.csc.com/.well-known/ (probed 2026-09-05)
+note: >-
+  Computer Sciences Corporation is defunct — the brand was retired on 2017-04-01 when CSC merged with
+  the Enterprise Services business of Hewlett Packard Enterprise to form DXC Technology. Both csc.com
+  and www.csc.com now answer EVERY path with a blanket HTTP 301 to https://dxc.com/<path>?merger=true;
+  nothing is served from a CSC-controlled host. No document was retrieved, so NO WellKnown or SecurityTxt
+  pointer is emitted in apis.yml — this file records a verified absence, not a presence. Anything served
+  at the dxc.com redirect target belongs to DXC Technology (profiled separately at all/dxc-technology/)
+  and is deliberately NOT credited to this record.
+hosts:
+  - host: csc.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 301
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 301
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+        file: null
+      - path: /.well-known/api-catalog
+        status: 301
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 301
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 301
+        file: null
+      - path: /.well-known/agent.json
+        status: 301
+        file: null
+  - host: www.csc.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 301
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 301
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+        file: null
+      - path: /.well-known/api-catalog
+        status: 301
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 301
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 301
+        file: null
+      - path: /.well-known/agent.json
+        status: 301
+        file: null
+redirect_target: https://dxc.com/
+contract_discovery:
+  note: >-
+    STEP 0b contract discovery ran against every host this record knows. apis.yml declares no APIs, so
+    there is no baseURL host and no OpenAPI servers[] host; csc.com / www.csc.com are the only hosts.
+  probes:
+    - url: https://csc.com/openapi.json
+      status: 301
+    - url: https://csc.com/swagger.json
+      status: 301
+    - url: https://csc.com/api-docs
+      status: 301
+    - url: https://csc.com/llms.txt
+      status: 301
+    - url: https://csc.com/robots.txt
+      status: 301
+    - url: https://developer.csc.com/
+      status: 0
+      note: NXDOMAIN — no DNS record
+    - url: https://api.csc.com/
+      status: 0
+      note: NXDOMAIN — no DNS record
+    - url: https://apis.csc.com/
+      status: 0
+      note: NXDOMAIN — no DNS record
+    - url: https://developers.csc.com/
+      status: 0
+      note: NXDOMAIN — no DNS record
+    - url: https://docs.csc.com/
+      status: 0
+      note: DNS resolves to 20.137.2.134 but the host refuses both HTTP and HTTPS connections
+  github_org:
+    url: https://github.com/csc
+    status: 200
+    finding: >-
+      The legacy CSC GitHub organization still exists but has been renamed to "DXC Technology" and its
+      profile reads "We have moved! Please visit us at the DXC Technology organization at
+      https://github.com/dxc-technology". No GitHubOrganization pointer is wired here, because the
+      surface behind it is DXC's, not CSC's.
+  result: no published contract found

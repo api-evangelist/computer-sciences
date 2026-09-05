@@ -43,7 +43,7 @@ tags:
   - Outsourcing
   - Fortune 500
 created: '2025-03-23'
-modified: '2026-04-28'
+modified: '2026-09-05'
 specificationVersion: '0.23'
 kind: company
 x-status: defunct
@@ -61,3 +61,26 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: defunct
+  detail: >-
+    The Computer Sciences Corporation brand was retired on 2017-04-01 when CSC merged into DXC
+    Technology; csc.com and www.csc.com now answer every path — including /openapi.json, /llms.txt
+    and all seven /.well-known/ documents — with a blanket 301 to dxc.com/<path>?merger=true, and
+    developer/api/apis/developers.csc.com have no DNS record at all.
+  evidence:
+    - url: https://csc.com/
+      status: 301
+    - url: https://csc.com/.well-known/api-catalog
+      status: 301
+    - url: https://csc.com/openapi.json
+      status: 301
+    - url: https://github.com/csc
+      status: 200
+  checked: '2026-09-05'

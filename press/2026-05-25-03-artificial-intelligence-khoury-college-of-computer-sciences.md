@@ -1,7 +1,9 @@
 ---
 title: Artificial Intelligence - Khoury College of Computer Sciences
 url: https://www.khoury.northeastern.edu/research_areas/artificial-intelligence/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Computer Sciences" press release artificial intelligence'
 position: 3
 source: serpapi-google

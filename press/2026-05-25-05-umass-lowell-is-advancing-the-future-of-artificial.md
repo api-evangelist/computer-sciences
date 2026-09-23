@@ -1,7 +1,9 @@
 ---
 title: UMass Lowell is advancing the future of artificial ...
 url: https://www.instagram.com/p/DXrfx6QGgXJ/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Computer Sciences" press release artificial intelligence'
 position: 5
 source: serpapi-google

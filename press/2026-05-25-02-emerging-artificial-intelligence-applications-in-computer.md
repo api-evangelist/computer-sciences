@@ -1,7 +1,9 @@
 ---
 title: Emerging Artificial Intelligence Applications in Computer ...
 url: https://www.iospress.com/node15242/books/emerging-artificial-intelligence-applications-in-computer-engineering
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Computer Sciences" press release artificial intelligence'
 position: 2
 source: serpapi-google

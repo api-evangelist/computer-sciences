@@ -1,4 +1,4 @@
-# Computer Sciences Corporation (computer-sciences)
+# Computer Sciences Corporation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,32 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
+
 Computer Sciences Corporation (CSC) was a multinational information technology services and professional services company. On April 1, 2017, CSC merged with the Enterprise Services line of business of Hewlett Packard Enterprise to form DXC Technology, retiring the standalone CSC brand. This profile is preserved as a historical record; CSC did not publish any public developer APIs and the entity is no longer actively operated under this name.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/computer-sciences/refs/heads/main/apis.yml)
+**Areas:** Consulting · Defunct · Enterprise Services · Information Technology · Outsourcing · Fortune 500
 
-## Status
+## Computer Sciences Corporation on APIs.io (historical record)
 
-- **Operational status:** Defunct (merged April 1, 2017)
-- **Successor:** [DXC Technology](https://www.dxc.com)
-- **x-type:** company
+Everything profiled for Computer Sciences Corporation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/computer-sciences/](https://apis.io/providers/computer-sciences/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+## API Evangelist rating
 
-- Consulting, Defunct, Enterprise Services, Information Technology, Outsourcing
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-## APIs
+## How this profile is made
 
-No public APIs were ever published under the Computer Sciences Corporation brand. Following the merger, modern integrations are surfaced under the DXC Technology brand at [dxc.com](https://www.dxc.com).
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Common Properties
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Computer Sciences Corporation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- [DXC Technology (successor)](https://www.dxc.com)
-- [CSC on Wikipedia](https://en.wikipedia.org/wiki/Computer_Sciences_Corporation)
-- [DXC Technology on Wikipedia](https://en.wikipedia.org/wiki/DXC_Technology)
+## Open an issue
 
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/computer-sciences/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
